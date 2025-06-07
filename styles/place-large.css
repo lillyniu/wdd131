@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .hero {
+    grid-column: 1 / -1;
+  }
+
+  .weather-icon {
+    display: inline;
+    margin-left: 0.5rem;
+  }
+}
